@@ -1,0 +1,91 @@
+Thread Design #1 (TURTLE RDP)
+TurtleRDP.com
+Your one stop RDP Solutions!
+
+Why choose TurtleRDP?
+We provide an easy to use interface with 1 Click RDP Setup and countless tools/applications to install all with one click!
+-------------------------
+
+Key Features: (Make these animated)
+
+Automated Server Deployment
+
+Dedicated Support
+
+Optimized and High performance Servers
+
+Weekly Backup 
+
+VM Control Panel
+
+99% Uptime
+
+Cheap Pricing
+-------------------------
+
+
+Availale Specifications: 
+
+Nano $4.99 (CHEAPEST)
+1 vCore
+1 GB Ram
+5 GB Storage
+Weekly Backup
+
+Micro $6.99
+1 vCore
+2 GB Ram
+5 GB Storage
+Weekly Backup
+
+Mega $9.99 (BEST VALUE)
+2 vCore
+4 GB Ram
+30 GB Storage
+Weekly Backup
+
+Giga $19.99
+4 vCore
+8 GB Ram
+60 GB Storage
+Weekly Backup
+-------------------------
+
+Available operating systems to choose from:
+
+Ubuntu (20.04 x64)
+Debian (9 x64)
+CentOS (7 x64)
+AlmaLinux (8.3 x64)
+Windows (Windows 2016 Datacenter)
+-------------------------
+
+Locations that are available:
+
+United Kingdom
+United States
+
+-------------------------
+Payment Methods Accepted:
+
+PayPal
+BTC
+Altcoins (LTC, ETH and more)
+
+
+Contact Us:
+Email: contact@turtlerdp.com
+Telegram: @nakedturtle or @invaderstore
+Telegram Server: https://t.me/turtlerdp
+Website: https://turtlerdp.com
+
+Terms of Service
+
+Our Servers cannot be used to perform the following:
+• DDoS Attack
+• Botnet related content
+• Port Scanning
+• Email Spamming/Abuse
+• Hosting Phishing websites
+• Hosting Copyrighted Content.
+If caught your server/service will be terminated without any further notice and refunds!

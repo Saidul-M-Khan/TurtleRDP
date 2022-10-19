@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+}
+
+html {
+    /* height: 100%; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../assets/background/background.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto -155px;
+}
+
+.navbar-nav {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.212);
+}
+
+/* Section-1 */
+.section-1 {
+    background-image: url("../assets/vector/banner marged.png") no-repeat;
+}
+
+
+
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+    color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon {
+    color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+    background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+.title {
+    color: white;
+}
+
+.subtitle {
+    color: white;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.246);
+}
+
+.banner {
+    position: relative;
+    text-align: left;
+
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+    .centered {
+        position: absolute;
+        top: 55%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.buy-now-btn {
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+    .responsive-font {
+        font-size: 60px;
+    }
+}
+
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (min-height: 680px),
+screen and (orientation: portrait) {
+    .responsive-font {
+        font-size: 10px;
+    }
+}
+
+
+
+
+ol {
+    counter-reset: li;
+    /* Initiate a counter */
+    list-style: none;
+    /* Remove default numbering */
+    *list-style: decimal;
+    /* Keep using default numbering for IE6/7 */
+    font: 15px 'trebuchet MS', 'lucida sans';
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+}
+
+ol ol {
+    margin: 0 0 0 2em;
+    /* Add some left margin for inner lists */
+}
+
+
+.rounded-list a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    margin: 25px;
+    background: rgba(0, 0, 0, 0.358);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;
+}
+
+.rounded-list a:hover {
+    background: rgb(94, 9, 252);
+    color: #ffffff;
+}
+
+.rounded-list a:hover:before {
+    transform: rotate(360deg);
+}
+
+.rounded-list a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 64%;
+    margin-top: -1.3em;
+    background: #ba84fd;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    /* border: .3em solid #fff; */
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+#why-choose {
+    background-color: #121C22;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.floating {
+    animation: floating 3s ease-in-out infinite alternate both;
+}
+
+.card-body {
+    background-color: transparent !important;
+}
+
+.card-btn {
+    background: #d846fc;
+    background: -webkit-linear-gradient(to left, #d846fc, #3F5EFB);
+    background: linear-gradient(to left, #d846fc, #3F5EFB);
+}
+
+.card-icons {
+    width: 15%;
+    margin-right: 10px;
+}
+
+.card-img-top {
+    display: block;
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#terms {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+
+.terms-of-services {
+    position: relative;
+    display: inline-block;
+}
+
+.terms-of-services ul,
+.terms-of-services li {
+    margin: 0;
+    padding: 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+#terms>ul li::before {
+    content: "\2022";
+    color: rgb(140, 0, 255);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+@media only screen and (max-width: 600px) {
+    #terms {
+        height: 235px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 8px;
+    transform: translate(-50%, -50%);
+    }
+}
+
+.card-style {
+    background-color: rgb(45, 45, 45);
+    border-radius: 28px 28px 25px 25px
+}
+
+.contact-info {
+    border-style: solid;
+    border-color: #3F5EFB;
+    border-radius: 50px;
+
+    /* background: #d846fc;
+    background: -webkit-linear-gradient(to left, #d846fc, #3F5EFB);
+    background: linear-gradient(to left, #d846fc, #3F5EFB); */
+}
