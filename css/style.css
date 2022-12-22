@@ -22,6 +22,20 @@ body {
     margin: 0 auto -155px;
 }
 
+/* .typed-out{
+    overflow: hidden;
+    border-right: .15em solid rgb(255, 255, 255);
+    white-space: nowrap;
+    animation: 
+      typing 1s forwards;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  } */
+
 .line-1 {
     position: relative;
     top: 50%;
@@ -35,7 +49,7 @@ body {
     transform: translateY(-50%);
 }
 
-/* Animation 1 */
+/* Animation */
 .anim-typewriter {
     animation: typewriter 1s steps(16) 1s 1 normal both,
         blinkTextCursor 500ms steps(16) infinite normal;
@@ -61,37 +75,19 @@ body {
     }
 }
 
-/* Animation 2 */
-.anim-typewriter-2 {
-    animation: typewriter 1s steps(50) 1s 1 normal both,
-        blinkTextCursor 500ms steps(50) infinite normal;
-}
-
-@keyframes typewriter {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 15em;
-    }
-}
-
-@keyframes blinkTextCursor {
-    from {
-        border-right-color: rgba(255, 255, 255, .75);
-    }
-
-    to {
-        border-right-color: transparent;
-    }
-}
-
 .navbar-nav {
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     background-color: rgba(255, 255, 255, 0.212);
 }
+
+/* Section-1 */
+.section-1 {
+    background-image: url("../assets/vector/banner marged.png") no-repeat;
+}
+
+
+
 
 /* Color of the links BEFORE scroll */
 .navbar-scroll .nav-link,
@@ -116,10 +112,10 @@ body {
     padding-bottom: 5px;
 }
 
-/* Section-1 */
-.section-1 {
-    background-image: url("../assets/vector/banner marged.png") no-repeat;
-}
+
+
+
+
 
 .title {
     color: white;
@@ -139,82 +135,7 @@ body {
 
 }
 
-/* Banner Button */
-.button-85 {
-    padding: 0.6em 2em;
-    border: none;
-    outline: none;
-    color: rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-}
-
-.button-85:before {
-    content: "";
-    background: linear-gradient(45deg,
-            #ff0000,
-            #ff7300,
-            #fffb00,
-            #48ff00,
-            #00ffd5,
-            #002bff,
-            #7a00ff,
-            #ff00c8,
-            #ff0000);
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing-button-85 20s linear infinite;
-    transition: opacity 0.3s ease-in-out;
-    border-radius: 10px;
-}
-
-@keyframes glowing-button-85 {
-    0% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 400% 0;
-    }
-
-    100% {
-        background-position: 0 0;
-    }
-}
-
-.button-85:after {
-    z-index: -1;
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgb(255, 255, 255);
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-}
-
 .centered {
-    position: absolute;
-    top: 64%;
-    left: 9%;
-    transform: translate(-50%, -50%);
-}
-
-.banner-content{
     position: absolute;
     top: 40%;
     left: 20%;
@@ -224,18 +145,10 @@ body {
 @media only screen and (max-width: 600px) {
     .centered {
         position: absolute;
-        top: 95%;
-        left: 28%;
-        transform: translate(-50%, -50%);
-    }
-
-    .banner-content{
-        position: absolute;
-        top: 40%;
+        top: 55%;
         left: 40%;
         transform: translate(-50%, -50%);
     }
-   
 }
 
 .buy-now-btn {
